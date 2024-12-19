@@ -1,5 +1,7 @@
 body{
-    background-image: url(../descargas/playa.jpg);
+    background-image: url(../Imatges/playa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     margin-top: 60px;
     margin-left: 30px;
