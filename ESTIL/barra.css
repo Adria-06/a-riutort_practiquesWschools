@@ -10,6 +10,7 @@ li.navbar {
     float: left;
     border-right: 1px solid #ffffff;
     background-color: #000000;
+    list-style-type: none;
 }
 
 li.navbar a.navbar {
