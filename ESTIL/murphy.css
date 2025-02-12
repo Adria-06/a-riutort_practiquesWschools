@@ -89,3 +89,7 @@ p#m6 {
     background-color: hwb(0 51% 1%);
     text-align: right;
 }
+
+p:hover {
+    z-index: 3;
+}
