@@ -1,0 +1,91 @@
+p {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+body {
+    background-color: hwb(0 80% 20%);
+    font-family: sans-serif;
+}
+
+p#m1 {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    border: hwb(40 14% 50%) 2px solid;
+    background-color: hwb(40 24% 1%);
+    text-align: center;
+}
+
+p#m2 {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: hwb(120 9% 49%) 4px solid;
+    background-color: hwb(120 31% 4%);
+    text-align: center;
+}
+
+p#m3 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hwb(60 18% 16%) 4px solid;
+    background-color: hwb(60 27% 3%);
+    text-align: left;
+}
+
+p#m4 {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hwb(180 46% 19%) 4px solid;
+    background-color: hwb(180 49% 4%);
+    text-align: right;
+}
+
+p#m5 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hwb(300 44% 27%) 4px solid;
+    background-color: hwb(300 35% 2%);
+    text-align: left;
+}
+
+p#m6 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hwb(0 37% 49%) 4px solid;
+    background-color: hwb(0 51% 1%);
+    text-align: right;
+}
